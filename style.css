@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.music-card {
+    background-color: white;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.album {
+    background-color: #ddd;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.buttons button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play {
+    background-color: #667eea;
+    color: white;
+}
