@@ -1,26 +1,29 @@
 # Music Player UI (HTML & CSS)
 
-This project is a **basic music player user interface** created using **HTML and CSS**.
-It focuses on **layout, styling, and UI design**, making it perfect for beginners who are learning frontend development.
+This project is a **modern and attractive Music Player User Interface** built using **HTML and CSS**.
+It demonstrates frontend design concepts such as gradients, card layouts, hover effects, and responsive centering.
 
-> Note: This is a **UI-only project**. It does not include audio playback functionality or JavaScript.
+> This is a **UI-only project**. It does not include audio playback functionality (no JavaScript used).
 
 ---
 
 ## Features
 
-* Modern card-based design
-* Gradient background
-* Play, previous, and next buttons
+* Gradient background for modern look
+* Card-style music player layout
+* Album placeholder with icon
+* Song title and artist display
 * Progress bar (slider)
-* Clean and minimal layout
+* Play, previous, and next buttons
+* Hover animations for buttons
+* Clean and beginner-friendly code
 
 ---
 
 ## Technologies Used
 
-* **HTML5** – Page structure
-* **CSS3** – Styling and layout
+* **HTML5** – Structure of the music player
+* **CSS3** – Styling, layout, gradients, and animations
 
 ---
 
@@ -29,11 +32,13 @@ It focuses on **layout, styling, and UI design**, making it perfect for beginner
 ```
 music-player-ui/
 │
-├── index.html     # Music player structure
-├── style.css      # Styling and layout
+├── index.html     # Main HTML file
+├── style.css      # Styling file
 └── README.md      # Project documentation
 ```
-## Music Player
-<img width="1880" height="907" alt="image" src="https://github.com/user-attachments/assets/88b1f2cc-282f-4a98-bb0d-7b1b1fc1304f" />
+## Music Player <img width="1898" height="906" alt="image" src="https://github.com/user-attachments/assets/022b6611-a113-450b-9fa0-5e97bde6faf6" />
+
+
+
 
 
