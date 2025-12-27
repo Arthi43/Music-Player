@@ -1,41 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: linear-gradient(to right, #667eea, #764ba2);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
+/* Music Card */
 .music-card {
-    background-color: white;
-    padding: 25px;
-    width: 300px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    width: 320px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
+/* Album */
 .album {
-    background-color: #ddd;
-    height: 150px;
-    border-radius: 15px;
+    height: 170px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+/* Song Info */
+.song {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.artist {
+    font-size: 14px;
+    color: #666;
     margin-bottom: 15px;
 }
 
+/* Progress Bar */
 input[type="range"] {
     width: 100%;
-}
-
-.buttons button {
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
+    margin: 10px 0;
     cursor: pointer;
 }
 
+/* Time */
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.control {
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.control:hover {
+    transform: scale(1.1);
+}
+
 .play {
-    background-color: #667eea;
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
+    padding: 16px;
+    font-size: 22px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.5);
+}
+
+.play:hover {
+    transform: scale(1.15);
 }
